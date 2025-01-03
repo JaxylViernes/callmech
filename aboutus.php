@@ -75,8 +75,8 @@
     }
 
     nav ul li a:hover {
-        background: #F86D1A;
-        color: #D9D9D9;
+        font-size: 20px;
+        color: orange;
         text-decoration: none;
     }
 
@@ -188,6 +188,9 @@
                 
                 <li>
                     <a href="aboutus.php"  class="active">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="faqs.php">FAQs</a>
                 </li>
                 <li>
     <a href="notifications.php"><i class="fas fa-bell"></i></a>

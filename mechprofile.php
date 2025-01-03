@@ -77,8 +77,8 @@ session_start();
 
     }
     nav ul li a:hover {
-        background: #F86D1A;
-        color: #D9D9D9;
+        font-size: 20px;
+        color: orange;
         text-decoration: none;
     }
 
@@ -198,21 +198,22 @@ session_start();
                 <img src="img/logo.png" alt="">
             </div>
             <ul>
+            <li>
+                    <a href="mechHome.php">HOME</a>
+                    </li>
+          
                 <li>
-                    <a href="home.php">HOME</a>
-                </li>
-                <li>
-                    <a href="mech.php" class="active">MECHANIC</a>
-                </li>
-                <li>
-                    <a href="forum.php">ON ROAD HELP</a>
-                </li>
-                <li>
-                    <a href="aboutus.php">ABOUT US</a>
-                </li>
-                <li>
-                    <a href="userprofile.php">PROFILE</a>
-                </li>
+                        <a href="mechMessage.php">MESSAGES</a>
+                    </li>
+                    <li>
+                        <a href="profile.php" class="active">PROFILE</a>
+                    </li>
+                    <li>
+                        <a href="mechAboutUs.php">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="faqsmech.php">FAQs</a>
+                    </li>
             </ul>
         </nav>
     </header>

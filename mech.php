@@ -83,8 +83,8 @@ session_start();
     }
 
     nav ul li a:hover {
-        background: #F86D1A;
-        color: #D9D9D9;
+      font-size: 20px;
+        color:orange;
         text-decoration: none;
     }
 
@@ -225,6 +225,9 @@ session_start();
               
                 <li>
                     <a href="aboutus.php">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="faqs.php">FAQs</a>
                 </li>
                 <li>
     <a href="notifications.php"><i class="fas fa-bell"></i></a>

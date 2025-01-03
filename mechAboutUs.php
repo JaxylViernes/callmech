@@ -76,8 +76,8 @@
     }
 
     nav ul li a:hover {
-        background: #F86D1A;
-        color: #D9D9D9;
+        font-size: 20px;
+        color: orange;
         text-decoration: none;
     }
 
@@ -173,17 +173,21 @@
                     <img src="img/logo.png" alt="">
                 </div>
                 <ul>
-                    <li>
-                        <a href="mechHome.php">HOME</a>
+                <li>
+                    <a href="mechHome.php">HOME</a>
                     </li>
-                    <li>
+        
+                <li>
                         <a href="mechMessage.php">MESSAGES</a>
                     </li>
                     <li>
                         <a href="profile.php">PROFILE</a>
                     </li>
                     <li>
-                        <a href="mechAboutUs.php"  class="active">ABOUT US</a>
+                        <a href="mechAboutUs.php" class="active">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="faqsmech.php">FAQs</a>
                     </li>
                 </ul>
             </nav>
